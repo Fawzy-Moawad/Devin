@@ -1,0 +1,49 @@
+
+/*NAVBAR SECTION */
+
+
+
+/*---------------------------------------------
+                    Home
+---------------------------------------------*/
+/*MAP SECTION*/
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+/* Will DELETE THIS*/
+.col-3 {
+    background-image:url(./img/1.jpg);
+}
+
+.text {
+    text-align: center;
+}
+
+.custom-dropdown-item {
+  background-color: #FAF1E4 !important; /* Use !important to ensure the custom color is applied */
+}
+
+/*---------------------------------------------
+                    Contact Me
+---------------------------------------------*/
+/*IMAGE ANDFORM SECTION*
+
+/*---------------------------------------------
+                      MEDIA
+----------------------------------------------*/
+/*
+MEET DEVIN 
+*
+/
+
