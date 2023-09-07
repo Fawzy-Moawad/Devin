@@ -1,0 +1,8 @@
+fieldset{
+    background: url("https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+p#innerPara{padding:20px ;}
+legend{width:200px;padding:10px 20px;}
