@@ -37,3 +37,7 @@ function submitForm() {
         // Handle any network or other errors here
     });
 }
+
+/*------------------------------
+            NAVBAR
+------------------------------*/

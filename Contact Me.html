@@ -9,36 +9,36 @@
         <title>Contact Me</title>
     </head>
 
-    <body style="background-color: black;">
-    
+    <body>
+        
                                     <!-- Nav -->
-        <div class="nav-container py-5 fs-5" style="background-color: white">
+        <div class="nav-container py-5 fs-6" style="background-color: white">
             <ul class="nav justify-content-center">
                 <li class="nav-item">
-                    <a class="nav-link active" style="color: black" aria-current="page" href="Home.html"><b>Home</b></a>
+                    <a class="nav-link active" style="color: black" aria-current="page" href="Home.html"><b>HOME</b></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" style="color: black" href="Meet Devin.html"><b>Meet Devin</b></a>
+                    <a class="nav-link active" style="color: black" href="Meet Devin.html"><b>MEET DEVIN</b></a>
                 </li>
                 <li class="nav-item dropdown" style="background-color: white;">
-                    <a class="nav-link dropdown-toggle" style="color: black" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><b>Listings</b></a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" style="color: black; background-color: white;" href="Featured Listings.html"><b>Featured Listings</b></a></li>
-                        <li><a class="dropdown-item" style="color: black; background-color: white;" href="Home Sales.html"><b>Home Sales</b></a></li>
+                    <a class="nav-link dropdown-toggle" style="color: black" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><b>LISTINGS</b></a>
+                    <ul class="dropdown-menu" id="listings-dropdown">
+                        <li><a class="dropdown-item" style="color: black; background-color: white;" href="Featured Listings.html">FEATURED LISTINGS</a></li>
+                        <li><a class="dropdown-item" style="color: black; background-color: white;" href="Home Sales.html">HOME SALES</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown" style="background-color: white;">
-                    <a class="nav-link dropdown-toggle" style="color: black" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><b>Resources</b></a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" style="color: black; background-color: white;" href="Sellers.html"><b>Sellers</b></a></li>
-                        <li><a class="dropdown-item" style="color: black; background-color: white;" href="Buyers.html"><b>Buyers</b></a></li>
+                    <a class="nav-link dropdown-toggle" style="color: black" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><b>RESOURCES</b></a>
+                    <ul class="dropdown-menu" id="resources-dropdown">
+                        <li><a class="dropdown-item" style="color: black; background-color: white;" href="Sellers.html">SELLERS</a></li>
+                        <li><a class="dropdown-item" style="color: black; background-color: white;" href="Buyers.html">BUYERS</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" style="color: black" href="videos.html" tabindex="-1" aria-disabled="true"><b>videos</b></a>
+                    <a class="nav-link active" style="color: black" href="videos.html" tabindex="-1" aria-disabled="true"><b>VIDEOS</b></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" style="color: black" href="Contact Me.html" tabindex="-1" aria-disabled="true"><b>Contact Me</b></a>
+                    <a class="nav-link active" style="color: black" href="Contact Me.html" tabindex="-1" aria-disabled="true"><b>CONTACT ME</b></a>
                 </li>
             </ul>
         </div>
@@ -51,9 +51,9 @@
             </a>
         </div>
 
-        <div class="row mt-5" style="background-color: black;">
+        <div class="row mt-5" style="background-color: white;">
             <!-- Devin Photo -->
-            <div class="col-md-6 text-center">
+            <div class="col-md-6 text-center mt-5">
                 <img src="./Img/Dev+headshot2.jpeg" class="rounded" width="50%"  alt="">
             </div>
 
@@ -61,48 +61,53 @@
         <div class="col-md-6 col-md-offset-1 form-container pr-5 pl-5 pb-5" style="max-width: 400px;">
             <form>
                 <!-- 2 column grid layout with text inputs for the first and last names -->
-                <div class="row mb-5">
+                <div class="row mb-5 mt-5">
                     <div class="col">
 
                                 <!--First Name Input-->
                                 
                         <div class="form-outline">
-                            <input type="text" id="form3Example2" placeholder="First Name" class="form-control mb-3" />
+                            <label for="">First Name :</label>
+                            <input type="text" id="form3Example2" class="form-control mb-3 border border-dark" />
                         </div>
                     </div>
 
                                 <!--Last Name Input-->
                     <div class="col">
                         <div class="form-outline">
-                            <input type="text" id="form3Example2" placeholder="Last Name" class="form-control mb-3" />
+                            <label for="">Last Name :</label>
+                            <input type="text" id="form3Example2" class="form-control mb-3 border border-dark" />
                         </div>
                     </div>
 
                                 <!-- Email input -->
 
                     <div class="form-outline">
-                        <input type="email" id="form3Example3" placeholder="Email address" class="form-control mb-3" />
+                        <label for="">Email :</label>
+                        <input type="email" id="form3Example3" class="form-control mb-3 border border-dark" />
                     </div>
 
                                 <!-- Phone Number input -->
 
                     <div class="col">
                         <div class="form-outline">
-                            <input type="text" id="form3Example1" placeholder="Phone Number" class="form-control mb-3" />
+                            <label for="">Phone Number :</label>
+                            <input type="text" id="form3Example1" class="form-control mb-3 border border-dark" />
                         </div>
                     </div>
 
                                 <!-- Message input -->
 
                     <div class="mb-3">
-                        <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
+                        <label for="">Message :</label>
+                        <textarea class="form-control border border-dark" id="message" type="text" style="height: 10rem;" data-sb-validations="required"></textarea>
                     </div>
 
                                 <!--Submit Button-->
 
                     <div class="row mt-3">
                         <div class="col-md-6">
-                            <button type="submit" class="btn btn-block " style="background-color: #ff1206;"><b>Submit</b></button>
+                            <button type="submit" class="btn btn-block border border-dark" style="background-color: #CCCCCC; color: black;">Submit</button>
                         </div>
                     </div>
                 </div>
@@ -111,8 +116,8 @@
 
             <!-- Register buttons -->
             <div class="text-center pt-5 pb-5">
-                <p><h1 style="color: white;">Contact Me:</h1></p>
-                <p><h4 style="color: #ff1206;"">604 - 809 - 1032</h4></p>
+                <p><h1 style="color: black;">Contact Me:</h1></p>
+                <p><h4 style="color: #ff1206;">604 - 809 - 1032</h4></p>
             </div>
             <div class="text-center pb-5">
                 <button type="button" class="btn btn-secondary bg-light btn-floating mx-3">
